@@ -24,6 +24,6 @@ class String
   end
 
   def count_sentences
-    if self.split(".", "?", "!").length
+    if string.split(/\?|\.|!/).count
   end
 end
