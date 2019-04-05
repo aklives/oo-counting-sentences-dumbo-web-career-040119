@@ -7,6 +7,7 @@ class String
       true
     else
       false
+    end
   end
 
   def question?
@@ -14,6 +15,7 @@ class String
       true
     else
       false
+    end
   end
 
   def exclamation?
@@ -21,6 +23,7 @@ class String
       true
     else
       false
+    end
   end
 
   def count_sentences
